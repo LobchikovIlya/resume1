@@ -146,7 +146,7 @@ a{
     border-radius: 15px;
 }
 .react{
-    width: 5%;
+    width: 17%;
     background-color: #f44336;
     border-radius: 15px;
 
@@ -161,6 +161,7 @@ font-size: 20px;
 }
 .info p{
     padding: 10px;
+    color: aliceblue;
 }
 .about p{
    padding: 10px; 
@@ -171,5 +172,6 @@ ul {
 .item{
     padding: 15px;
     font-size: 15px;
+    color: rgb(233, 234, 237);
 
 }
