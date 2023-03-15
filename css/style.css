@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3,
+h2,
+h1 {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+p {
+    color: black;
+    
+    tab-size: 18px;
+
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.wrapper {
+    margin: 0 auto;
+    /* border:2px solid red; */
+    width: 100%;
+    height: 100%;
+    background-color: rgb(91, 90, 96);
+
+}
+
+.container {
+    display: grid;
+    max-width: 880px;
+    height: 100vh;
+    margin: 0 auto;
+    grid-template-columns: 1fr 3fr;
+    box-shadow: 10px 10px 10px rgb(21, 17, 17);
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+
+
+}
+
+.leftbar {
+    display: grid;
+    grid-template-rows: 200px auto auto auto auto;
+    /* border:2px solid rgb(135, 13, 13); */
+    background-color: rgb(71, 124, 176);
+
+
+}
+
+.foto {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    
+}
+
+.foto img {
+
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: auto auto auto auto ;
+
+    /* border:2px solid rgb(135, 13, 13); */
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-bottom: 70px;
+
+    
+}
+
+.about {
+
+
+    font-size: 20px;
+    color: rgb(63, 61, 61);
+
+}
+
+.experience {
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.cont {
+    display: flex;
+    height: 2%;
+    width: 100%;
+    background-color: #ddd;
+    
+}
+
+.skills {
+    text-align: left;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+    
+}
+
+.html {
+    width: 80%;
+    background-color: #4CAF50;
+    border-radius: 15px;
+}
+
+.css {
+    width: 80%;
+    background-color: #2196F3;
+    border-radius: 15px;
+}
+
+.js {
+    width: 75%;
+    background-color: #f44336;
+    border-radius: 15px;
+}
+
+.java {
+    width: 10%;
+    background-color: rgb(101, 163, 163);
+    border-radius: 15px;
+}
+
+.net {
+    width: 5%;
+    background-color: #7a4848;
+    border-radius: 15px;
+}
+.react{
+    width: 5%;
+    background-color: #f44336;
+    border-radius: 15px;
+
+}
+.courses p{
+padding: 10px;
+font-size: 20px;
+
+}
+.info{
+    padding: 20px;
+}
+.info p{
+    padding: 10px;
+}
+.about p{
+   padding: 10px; 
+}
+ul {
+    list-style:none;
+}
+.item{
+    padding: 15px;
+    font-size: 15px;
+
+}
