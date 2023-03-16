@@ -47,11 +47,11 @@ a{
 
 
 }
-@media (max-width:450px) {
+@media (max-width:430px) {
     .container {
         display: flex;
         flex-direction: column;
-        min-width: 200px;
+        min-width: 430px;
         
         height: 100vh;
         margin: 0 auto;
@@ -63,7 +63,7 @@ a{
     }
     .leftbar {
         display: flex;
-        min-width: 400px;
+        min-width: 430px;
         /* border:2px solid rgb(135, 13, 13); */
         background-color: rgb(71, 124, 176);
     
@@ -71,8 +71,9 @@ a{
     }
     .main {
         display: flex;
+        
  
-        min-width: 400px;
+        min-width: 430px;
         /* border:2px solid rgb(135, 13, 13); */
         background-color: rgb(255, 255, 255);
         padding: 20px;
