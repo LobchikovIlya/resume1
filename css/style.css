@@ -24,12 +24,14 @@ a{
     
 }
 
+
 .wrapper {
     margin: 0 auto;
     /* border:2px solid red; */
     width: 100%;
     height: 100%;
     background-color: rgb(91, 90, 96);
+
 
 }
 
@@ -50,8 +52,9 @@ a{
 @media (max-width:430px) {
     .container {
         display: flex;
+        flex-shrink: 1;
         flex-direction: column;
-        min-width: 430px;
+        /* min-width: 300px; */
         
         height: 100vh;
         margin: 0 auto;
@@ -63,7 +66,8 @@ a{
     }
     .leftbar {
         display: flex;
-        min-width: 430px;
+        flex-shrink:1;
+        /* min-width: 300px; */
         /* border:2px solid rgb(135, 13, 13); */
         background-color: rgb(71, 124, 176);
     
@@ -72,8 +76,8 @@ a{
     .main {
         display: flex;
         
- 
-        min-width: 430px;
+        flex-shrink: 1;
+        /* min-width: 430px; */
         /* border:2px solid rgb(135, 13, 13); */
         background-color: rgb(255, 255, 255);
         padding: 20px;
